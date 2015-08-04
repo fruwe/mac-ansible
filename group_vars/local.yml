@@ -1,0 +1,59 @@
+---
+atom_packages:
+  - atom-cli-diff
+  - language-elixir
+  - language-haml
+  - language-slim
+  - language-varnish
+  - line-diff-details
+  - project-manager
+  - sort-lines
+  - Sublime-Style-Column-Selection
+brew_packages:
+  - awscli
+  - boot2docker
+  - cmake
+  - csshx
+  - docker
+  - dynamodb-local
+  - elixir
+  - git
+  - go
+  - heroku-toolbelt
+  - hub
+  - htop
+  - imagemagick
+  - mysql
+  - nodejs
+  # - r # install after cask for xquartz
+  - redis
+  - tree
+  - varnish
+  - wget
+  - wrk
+cask_packages:
+  - atom
+  - daisydisk
+  - dropbox
+  - gimp
+  - google-chrome
+  - istat-menus
+  - iterm2
+  - keepassx
+  - rdm
+  - rstudio
+  - skype
+  - slack
+  - utorrent
+  - vagrant
+  - virtualbox
+  - viscosity
+  - vlc
+  - xquartz
+brew_packages_after_cask:
+  - r # install after xquartz cask has been installed
+brew_taps:
+  - homebrew/science
+brew_services:
+  - mysql
+  - redis

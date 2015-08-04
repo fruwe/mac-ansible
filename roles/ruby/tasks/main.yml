@@ -1,0 +1,11 @@
+- name: install rbenv
+  homebrew: name={{ item }} state=present
+  with_items:
+    - rbenv
+    - ruby-build
+
+- name: install ruby 2.2.2
+  command: rbenv install -s 2.2.2
+
+- name: set global ruby version
+  command: rbenv global 2.2.2

@@ -1,0 +1,12 @@
+---
+- hosts: local
+  connection: local
+  gather_facts: no
+  sudo: no
+  roles:
+    - brew
+    - cask
+    - ruby
+    - settings
+    - atom
+    - rails

@@ -1,0 +1,26 @@
+---
+- include_vars: ssh_config.yml
+
+- name: default to use standard quotes
+  command: defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+- name: default to use standard quotes
+  command: defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+- name: default to use standard quotes
+  command: defaults write com.apple.TextEdit SmartQuotes -bool false
+
+- name: default to use standard quotes
+  command: defaults write com.apple.TextEdit SmartDashes -bool false
+
+- name: set bashrc
+  copy: src=bashrc dest=~/.bashrc mode=0600
+
+- name: set bash_profile
+  copy: src=bash_profile dest=~/.bash_profile mode=0600
+
+- name: ssh dir
+  file: path=~/.ssh state=directory
+
+# - name: set config
+#   copy: content="{{settings.ssh_config}}" dest=~/.ssh/config mode=0600

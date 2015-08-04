@@ -1,0 +1,19 @@
+---
+- name: update homebrew
+  homebrew: update_homebrew=yes upgrade_all=yes
+
+- name: install taps
+  homebrew_tap: tap={{ item }} state=present
+  with_items: brew_taps
+
+- name: install CLI tools
+  homebrew: name={{ item }} state=present
+  with_items: brew_packages
+
+- name: Start services at login
+  file: src=/usr/local/opt/{{ item }}/homebrew.mxcl.{{ item }}.plist path=~/Library/LaunchAgents/homebrew.mxcl.{{ item }}.plist state=link force=yes
+  with_items: brew_services
+
+- name: Setup launch agents for services
+  command: launchctl load ~/Library/LaunchAgents/homebrew.mxcl.{{ item }}.plist
+  with_items: brew_services

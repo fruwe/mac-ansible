@@ -1,0 +1,8 @@
+- name: Install bundler
+  shell: gem install bundler
+
+- name: Install rails gem
+  shell: gem install rails
+
+- name: rbenv rehash
+  command: rbenv rehash
