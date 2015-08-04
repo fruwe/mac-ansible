@@ -31,6 +31,13 @@ brew_packages:
   - varnish
   - wget
   - wrk
+brew_packages_after_cask:
+  - r # install after xquartz cask has been installed
+brew_services:
+  - mysql
+  - redis
+brew_taps:
+  - homebrew/science
 cask_packages:
   - atom
   - daisydisk
@@ -50,10 +57,3 @@ cask_packages:
   - viscosity
   - vlc
   - xquartz
-brew_packages_after_cask:
-  - r # install after xquartz cask has been installed
-brew_taps:
-  - homebrew/science
-brew_services:
-  - mysql
-  - redis
