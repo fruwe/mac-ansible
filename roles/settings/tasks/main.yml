@@ -1,6 +1,4 @@
 ---
-- include_vars: ssh_config.yml
-
 - name: default to use standard quotes
   command: defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
@@ -22,5 +20,6 @@
 - name: ssh dir
   file: path=~/.ssh state=directory
 
+# - include_vars: ssh_config.yml
 # - name: set config
 #   copy: content="{{settings.ssh_config}}" dest=~/.ssh/config mode=0600
