@@ -51,6 +51,7 @@ cask_packages:
   - rstudio
   - skype
   - slack
+  - td-agent
   - utorrent
   - vagrant
   - virtualbox
