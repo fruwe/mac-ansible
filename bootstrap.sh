@@ -34,6 +34,8 @@ fi
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
+git pull
+
 # Use this if you use the vault
 # if [[ ! -f ~/.ansible_vault_pass.py ]]; then
 #     echo "Please save your vault password in ~/.ansible_vault_pass.py"

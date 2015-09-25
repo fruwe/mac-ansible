@@ -23,10 +23,13 @@ brew_packages:
   - htop
   - hub
   - imagemagick
+  - lua51
   - mysql
   - nodejs
+  - homebrew/nginx/openresty
   # - r # install after cask for xquartz
   - redis
+  - siege
   - tree
   - varnish
   - wget
@@ -42,6 +45,7 @@ cask_packages:
   - atom
   - daisydisk
   - dropbox
+  - firefox
   - gimp
   - google-chrome
   - istat-menus
