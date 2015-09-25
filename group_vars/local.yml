@@ -3,6 +3,7 @@ atom_packages:
   - atom-cli-diff
   - language-elixir
   - language-haml
+  - language-nginx
   - language-slim
   - language-varnish
   - line-diff-details
