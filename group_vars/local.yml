@@ -4,6 +4,7 @@ atom_packages:
   - language-elixir
   - language-haml
   - language-nginx
+  - language-lua
   - language-slim
   - language-varnish
   - line-diff-details
