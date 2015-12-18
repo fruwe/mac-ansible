@@ -16,13 +16,6 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Download and install Homebrew Cask
-if [[ ! -x /usr/local/bin/brew-cask ]]; then
-    echo "Info   | Install   | Cask"
-    brew update
-    brew install caskroom/cask/brew-cask
-fi
-
 # Download and install Ansible
 if [[ ! -x /usr/local/bin/ansible ]]; then
     echo "Info   | Install   | Ansible"

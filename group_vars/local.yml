@@ -21,6 +21,7 @@ brew_packages:
   - elixir
   - git
   - go
+  - graphviz
   - heroku-toolbelt
   - htop
   - hub
@@ -29,10 +30,12 @@ brew_packages:
   - mysql
   - nodejs
   - homebrew/nginx/openresty
+  # - phantomjs # did fail => use cask
   # - r # install after cask for xquartz
   - redis
   - siege
   - tree
+  - upx
   - varnish
   - wget
   - wrk
@@ -43,8 +46,11 @@ brew_services:
   - redis
 brew_taps:
   - homebrew/science
+  - Caskroom/cask
 cask_packages:
+  - astah-community
   - atom
+  # - couchbase-server-community
   - daisydisk
   - dropbox
   - firefox
@@ -53,14 +59,21 @@ cask_packages:
   - istat-menus
   - iterm2
   - keepassx
+  - netspot
+  - phantomjs
   - rdm
   - rstudio
   - skype
   - slack
+  - splashtop-personal
+  - splashtop-streamer
   - td-agent
+  - the-unarchiver
   - utorrent
   - vagrant
   - virtualbox
   - viscosity
   - vlc
   - xquartz
+luarocks:
+  - { command: 'luarocks-5.1 install lapis', file: '/usr/local/lib/luarocks/rocks-5.1/lapis' }
