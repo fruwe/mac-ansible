@@ -2,6 +2,7 @@
 atom_packages:
   - atom-cli-diff
   - language-elixir
+  - language-groovy
   - language-haml
   - language-nginx
   - language-lua
@@ -12,6 +13,7 @@ atom_packages:
   - sort-lines
   - Sublime-Style-Column-Selection
 brew_packages:
+  - ag
   - awscli
   - boot2docker
   - cmake
@@ -21,6 +23,8 @@ brew_packages:
   - elixir
   - git
   - go
+  - gradle
+  - grails
   - graphviz
   - heroku-toolbelt
   - htop
@@ -31,6 +35,8 @@ brew_packages:
   - nodejs
   - homebrew/nginx/openresty
   # - phantomjs # did fail => use cask
+  - postgresql
+  - python
   # - r # install after cask for xquartz
   - redis
   - siege
@@ -56,6 +62,8 @@ cask_packages:
   - firefox
   - gimp
   - google-chrome
+  - hipchat
+  - intellij-idea
   - istat-menus
   - iterm2
   - keepassx
