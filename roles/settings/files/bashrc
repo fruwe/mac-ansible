@@ -72,3 +72,6 @@ function prompt {
 }
 #\h:\W \u\$
 prompt
+
+# Growling in iterm2
+growl() { echo -e $'\e]9;'${1}'\007' ; return ; }

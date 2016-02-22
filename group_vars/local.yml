@@ -23,11 +23,11 @@ brew_packages:
   - elixir
   - git
   - go
-  - gradle
-  - grails
+  # - gradle # do with sdk man
+  # - grails # do with sdk man
   - graphviz
   - heroku-toolbelt
-  - htop
+  - htop-osx
   - hub
   - imagemagick
   - lua51
@@ -56,6 +56,7 @@ brew_taps:
 cask_packages:
   - astah-community
   - atom
+  - bluestacks
   # - couchbase-server-community
   - daisydisk
   - dropbox
