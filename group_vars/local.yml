@@ -1,6 +1,7 @@
 ---
 atom_packages:
   - atom-cli-diff
+  - atom-typescript
   - language-elixir
   - language-groovy
   - language-haml
