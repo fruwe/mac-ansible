@@ -2,14 +2,16 @@
 atom_packages:
   - atom-cli-diff
   - atom-typescript
+  - git-plus
   - language-elixir
   - language-groovy
   - language-haml
-  - language-nginx
   - language-lua
+  - language-nginx
   - language-slim
   - language-varnish
   - line-diff-details
+  - open-on-github
   - project-manager
   - sort-lines
   - Sublime-Style-Column-Selection
@@ -28,6 +30,7 @@ brew_packages:
   # - grails # do with sdk man
   - graphviz
   - heroku-toolbelt
+  - homebrew/binary/ngrok2
   - htop-osx
   - hub
   - imagemagick
@@ -57,11 +60,13 @@ brew_taps:
 cask_packages:
   - astah-community
   - atom
+  - bartender
   - bluestacks
   # - couchbase-server-community
   - daisydisk
   - dropbox
   - firefox
+  - genymotion
   - gimp
   - google-chrome
   - hipchat
