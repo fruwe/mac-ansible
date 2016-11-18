@@ -73,5 +73,13 @@ function prompt {
 #\h:\W \u\$
 prompt
 
+# AWS auto completion
+complete -C aws_completer aws
+
 # Growling in iterm2
 growl() { echo -e $'\e]9;'${1}'\007' ; return ; }
+
+# Bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi

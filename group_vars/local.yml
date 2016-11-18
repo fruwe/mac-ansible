@@ -11,6 +11,11 @@ atom_packages:
   - language-slim
   - language-varnish
   - line-diff-details
+  - minimap
+  - minimap-bookmarks
+  - minimap-git-diff
+  - minimap-cursorline
+  - nav-panel-plus
   - open-on-github
   - project-manager
   - sort-lines
@@ -18,6 +23,7 @@ atom_packages:
 brew_packages:
   - ag
   - awscli
+  - bash-completion
   - boot2docker
   - cmake
   - csshx
@@ -31,6 +37,7 @@ brew_packages:
   - graphviz
   - heroku-toolbelt
   - homebrew/binary/ngrok2
+  - homebrew/completions/rails-completion
   - htop-osx
   - hub
   - imagemagick
@@ -55,13 +62,15 @@ brew_services:
   - mysql
   - redis
 brew_taps:
+  - homebrew/completions
   - homebrew/science
   - Caskroom/cask
 cask_packages:
   - astah-community
   - atom
   - bartender
-  - bluestacks
+  - blisk
+  # - bluestacks
   # - couchbase-server-community
   - daisydisk
   - dropbox
