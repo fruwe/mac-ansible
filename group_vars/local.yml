@@ -24,7 +24,7 @@ atom_packages:
 brew_packages:
   - ag
   - awscli
-  - bash-completion
+  # - bash-completion
   - boot2docker
   - cmake
   - csshx
