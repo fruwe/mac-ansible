@@ -24,7 +24,6 @@ atom_packages:
 brew_packages:
   - ag
   - awscli
-  # - bash-completion
   - boot2docker
   - cmake
   - csshx
@@ -33,8 +32,6 @@ brew_packages:
   - elixir
   - git
   - go
-  # - gradle # do with sdk man
-  # - grails # do with sdk man
   - graphviz
   - heroku-toolbelt
   - hexedit
