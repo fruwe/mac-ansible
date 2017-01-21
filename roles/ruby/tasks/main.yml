@@ -4,8 +4,8 @@
     - rbenv
     - ruby-build
 
-- name: install ruby 2.3.1
-  command: rbenv install -s 2.3.1
+- name: install ruby 2.4.0
+  command: rbenv install -s 2.4.0
 
 - name: set global ruby version
-  command: rbenv global 2.3.1
+  command: rbenv global 2.4.0
