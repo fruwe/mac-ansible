@@ -35,7 +35,6 @@ brew_packages:
   - graphviz
   - heroku-toolbelt
   - hexedit
-  - homebrew/binary/ngrok2
   - homebrew/completions/rails-completion
   - htop-osx
   - hub
