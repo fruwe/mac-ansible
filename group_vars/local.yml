@@ -24,10 +24,8 @@ atom_packages:
 brew_packages:
   - ag
   - awscli
-  - boot2docker
   - cmake
   - csshx
-  - docker
   - dynamodb-local
   - elixir
   - git
@@ -44,7 +42,6 @@ brew_packages:
   - mysql
   - nodejs
   - homebrew/nginx/openresty
-  # - phantomjs # did fail => use cask
   - postgresql
   - python
   # - r # install after cask for xquartz
@@ -70,9 +67,8 @@ cask_packages:
   - atom
   - bartender
   - blisk
-  # - bluestacks
-  # - couchbase-server-community
   - daisydisk
+  - docker
   - dropbox
   - firefox
   - genymotion
@@ -92,7 +88,6 @@ cask_packages:
   - slack
   - splashtop-personal
   - splashtop-streamer
-  # - squidman
   - td-agent
   - the-unarchiver
   - utorrent
