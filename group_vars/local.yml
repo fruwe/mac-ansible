@@ -37,7 +37,7 @@ brew_packages:
   - hub
   - imagemagick
   - lua51
-  - mockserver
+  # - mockserver # install after java
   - mysql
   - nodejs
   - homebrew/nginx/openresty
@@ -53,6 +53,7 @@ brew_packages:
   - wrk
 brew_packages_after_cask:
   - r # install after xquartz cask has been installed
+  - mockserver # install after java
 brew_services:
   - mysql
   - redis
@@ -78,6 +79,7 @@ cask_packages:
   - intellij-idea
   - istat-menus
   - iterm2
+  - java
   - keepassx
   - netspot
   - phantomjs
