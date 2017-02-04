@@ -9,3 +9,6 @@
 
 - name: set global ruby version
   command: rbenv global 2.4.0
+
+- name: update rubygems
+  command: gem update --system

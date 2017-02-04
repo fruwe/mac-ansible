@@ -22,32 +22,33 @@ atom_packages:
   - sort-lines
   - Sublime-Style-Column-Selection
 brew_packages:
-  - ag
+  - ag # fast multi core grepper
   - awscli
   - cmake
   - csshx
-  - elixir
+  # - elixir
   - git
-  - go
-  - graphviz
-  - heroku-toolbelt
-  - hexedit
-  - homebrew/completions/rails-completion
+  # - go
+  # - graphviz
+  # - heroku-toolbelt
+  # - hexedit
+  # - homebrew/completions/rails-completion
   - htop-osx
-  - hub
+  # - hub
   - imagemagick
-  - lua51
+  - libxml2
+  # - lua51
   # - mockserver # install after java
   - mysql
   - nodejs
-  - homebrew/nginx/openresty
-  - postgresql
-  - python
+  # - homebrew/nginx/openresty
+  # - postgresql
+  # - python
   # - r # install after cask for xquartz
   - redis
-  - siege
+  - siege # siege is a HTTP/FTP load tester and benchmarking utility.
   - tree
-  - upx
+  # - upx
   - varnish
   - wget
   - wrk
@@ -63,39 +64,35 @@ brew_taps:
   - homebrew/services
   - Caskroom/cask
 cask_packages:
-  - astah-community
+  # - astah-community
   - atom
   - bartender
-  - blisk
   - daisydisk
   - docker
   - dropbox
-  - firefox
-  - genymotion
-  - gimp
+  # - firefox
+  # - genymotion
+  # - gimp
   - google-chrome
-  - hex-fiend
-  - hipchat
-  - intellij-idea
+  # - hex-fiend
+  # - hipchat
+  # - intellij-idea
   - istat-menus
   - iterm2
   - java
   - keepassx
-  - netspot
-  - phantomjs
-  - rdm
-  - rstudio
+  # - netspot # displays signal strength
+  # - rdm # redis desktop manager
+  # - rstudio # studio for R language
   - skype
   - slack
-  - splashtop-personal
-  - splashtop-streamer
-  - td-agent
-  - the-unarchiver
+  # - td-agent
+  - the-unarchiver # zip unarchiver supporting shift jis zips
   - utorrent
-  - vagrant
-  - virtualbox
+  # - vagrant
+  # - virtualbox
   - viscosity
   - vlc
   - xquartz
 luarocks:
-  - { command: 'luarocks-5.1 install lapis', file: '/usr/local/lib/luarocks/rocks-5.1/lapis' }
+  # - { command: 'luarocks-5.1 install lapis', file: '/usr/local/lib/luarocks/rocks-5.1/lapis' }
