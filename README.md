@@ -4,5 +4,5 @@ Uses ansible, homebrew and homebrew-cask to privision your MacOSX machine
 Install / Update MacOSX
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+bash <(curl -s https://raw.githubusercontent.com/fruwe/mac-ansible/master/install.sh)
 ```
