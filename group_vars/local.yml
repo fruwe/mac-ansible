@@ -67,7 +67,6 @@ cask_packages:
   # - astah-community
   - atom
   - bartender
-  - bittorrent
   - daisydisk
   - docker
   - dropbox
@@ -89,6 +88,7 @@ cask_packages:
   - slack
   # - td-agent
   - the-unarchiver # zip unarchiver supporting shift jis zips
+  - transmission # torrent client
   # - vagrant
   # - virtualbox
   - viscosity
