@@ -1,4 +1,5 @@
 ---
 - name: Install luarocks
-  command: "{{ item.command }} creates={{ item.file}}"
+  command: "{{ item.command }} creates={{ item.file }}"
+  become: yes
   with_items: "{{ luarocks }}"

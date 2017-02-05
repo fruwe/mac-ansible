@@ -37,11 +37,11 @@ brew_packages:
   # - hub
   - imagemagick
   - libxml2
-  # - lua51
+  - lua51
   # - mockserver # install after java
   - mysql
   - nodejs
-  # - homebrew/nginx/openresty
+  - homebrew/nginx/openresty
   # - postgresql
   # - python
   # - r # install after cask for xquartz
@@ -63,6 +63,7 @@ brew_taps:
   - homebrew/science
   - homebrew/services
   - Caskroom/cask
+  - InstantClientTap/instantclient
 cask_packages:
   # - astah-community
   - atom
@@ -95,4 +96,4 @@ cask_packages:
   - vlc
   - xquartz
 luarocks:
-  # - { command: 'luarocks-5.1 install lapis', file: '/usr/local/lib/luarocks/rocks-5.1/lapis' }
+  - { command: 'luarocks-5.1 install lapis', file: '/usr/local/lib/luarocks/rocks-5.1/lapis' }

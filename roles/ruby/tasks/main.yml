@@ -10,5 +10,9 @@
 - name: set global ruby version
   command: rbenv global 2.4.0
 
+- name: init rbenv
+  shell: if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 - name: update rubygems
-  command: gem update --system
+  shell: gem update --system
+  become: yes

@@ -1,8 +1,14 @@
 - name: Install bundler
-  shell: gem install bundler
+  gem:
+    name: bundler
+    executable: ~/.rbenv/shims/gem
+    user_install: False
 
 - name: Install rails gem
-  shell: gem install rails
+  gem:
+    name: rails
+    executable: ~/.rbenv/shims/gem
+    user_install: False
 
 - name: rbenv rehash
   command: rbenv rehash

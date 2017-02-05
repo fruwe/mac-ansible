@@ -40,4 +40,4 @@ fi
 #
 # ansible-playbook local.yml --vault-password-file ~/.ansible_vault_pass.py
 
-ansible-playbook local.yml
+ansible-playbook local.yml --ask-become-pass
