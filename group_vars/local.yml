@@ -1,6 +1,5 @@
 ---
 atom_packages:
-  - atom-build
   - atom-cli-diff
   - atom-typescript
   - autocomplete-gemfile
