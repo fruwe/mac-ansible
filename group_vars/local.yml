@@ -1,8 +1,13 @@
 ---
 atom_packages:
+  - atom-build
   - atom-cli-diff
   - atom-typescript
+  - autocomplete-gemfile
+  - build-dockerfile
   - git-plus
+  - hide-files
+  - language-docker
   - language-dotenv
   - language-elixir
   - language-groovy
@@ -27,8 +32,10 @@ brew_packages:
   - cmake
   - csshx
   # - elixir
+  - embulk
   - git
-  # - go
+  - go
+  - go-app-engine-64
   # - graphviz
   # - heroku-toolbelt
   # - hexedit
@@ -42,6 +49,7 @@ brew_packages:
   - mysql
   - nodejs
   - homebrew/nginx/openresty
+  - peco
   # - postgresql
   # - python
   # - r # install after cask for xquartz
@@ -71,10 +79,12 @@ cask_packages:
   - daisydisk
   - docker
   - dropbox
+  - expandrive
   # - firefox
   # - genymotion
   # - gimp
   - google-chrome
+  - google-cloud-sdk
   # - hex-fiend
   # - hipchat
   # - intellij-idea

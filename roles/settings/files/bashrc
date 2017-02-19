@@ -87,3 +87,7 @@ growl() { echo -e $'\e]9;'${1}'\007' ; return ; }
 
 # Automatically show directory content after cd
 cd() { builtin cd "$@" && [ -n "$PS1" ] && ls -F ; return; }
+
+# google cloud sdk
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
