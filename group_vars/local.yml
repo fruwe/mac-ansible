@@ -14,8 +14,10 @@ atom_packages:
   - language-lua
   - language-nginx
   - language-slim
+  - language-terraform
   - language-varnish
   - line-diff-details
+  - linter-terraform-syntax
   - minimap
   - minimap-bookmarks
   - minimap-git-diff
@@ -24,6 +26,7 @@ atom_packages:
   - open-on-github
   - project-manager
   - sort-lines
+  - ssh-config
   - Sublime-Style-Column-Selection
 brew_packages:
   - ag # fast multi core grepper
@@ -54,6 +57,7 @@ brew_packages:
   # - r # install after cask for xquartz
   - redis
   - siege # siege is a HTTP/FTP load tester and benchmarking utility.
+  - terraform
   - tree
   # - upx
   - varnish
@@ -72,7 +76,7 @@ brew_taps:
   - Caskroom/cask
   - InstantClientTap/instantclient
 cask_packages:
-  # - astah-community
+  - astah-community
   - atom
   - bartender
   - daisydisk
