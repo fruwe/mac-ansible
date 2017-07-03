@@ -9,4 +9,5 @@
     - settings
     - atom
     - rails
-    - luarocks
+    # - luarocks
+
