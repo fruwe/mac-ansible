@@ -37,7 +37,6 @@ brew_packages:
   - embulk
   - git
   - go
-  - go-app-engine-64
   # - graphviz
   # - heroku-toolbelt
   # - hexedit
