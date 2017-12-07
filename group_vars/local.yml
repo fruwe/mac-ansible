@@ -5,7 +5,10 @@ atom_packages:
   - autocomplete-gemfile
   - build-dockerfile
   - git-plus
+  - goto-definition
+  - ide-crystal
   - hide-files
+  - language-crystal-actual
   - language-docker
   - language-dotenv
   - language-elixir
@@ -17,6 +20,8 @@ atom_packages:
   - language-terraform
   - language-varnish
   - line-diff-details
+  - linter
+  - linter-eslint
   - linter-terraform-syntax
   - minimap
   - minimap-bookmarks
@@ -33,6 +38,7 @@ brew_packages:
   - awscli
   - cmake
   - csshx
+  - crystal-lang
   # - elixir
   - embulk
   - git
@@ -47,6 +53,7 @@ brew_packages:
   - libxml2
   - lua51
   # - mockserver # install after java
+  - mobile-shell # mosh
   - mysql
   - nodejs
   - homebrew/nginx/openresty
