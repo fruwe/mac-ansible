@@ -56,11 +56,12 @@ brew_packages:
   - mobile-shell # mosh
   - mysql
   - nodejs
-  - homebrew/nginx/openresty
+  # - homebrew/nginx/openresty
   - peco
   # - postgresql
   # - python
   # - r # install after cask for xquartz
+  - qt
   - redis
   - siege # siege is a HTTP/FTP load tester and benchmarking utility.
   - terraform
@@ -89,7 +90,7 @@ cask_packages:
   - docker
   - dropbox
   - expandrive
-  # - firefox
+  - firefox
   # - genymotion
   # - gimp
   - google-chrome
@@ -102,17 +103,24 @@ cask_packages:
   - java
   - keepassx
   # - netspot # displays signal strength
-  # - rdm # redis desktop manager
+  - rdm # redis desktop manager
   # - rstudio # studio for R language
   - skype
   - slack
   # - td-agent
   - the-unarchiver # zip unarchiver supporting shift jis zips
   - transmission # torrent client
-  # - vagrant
-  # - virtualbox
+  - tunnelblick
+  - vagrant
+  - virtualbox
   - viscosity
   - vlc
   - xquartz
 luarocks:
   - { command: 'luarocks-5.1 install lapis', file: '/usr/local/lib/luarocks/rocks-5.1/lapis' }
+sysctl:
+  # increase portrange (measured default first->49152 hifirst->49152 last->65535)
+  - name: net.inet.ip.portrange.first
+    value: 32768
+  - name: net.inet.ip.portrange.hifirst
+    value: 32768

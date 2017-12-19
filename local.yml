@@ -1,7 +1,7 @@
 ---
 - hosts: local
   connection: local
-  gather_facts: no
+  gather_facts: yes
   roles:
     - brew
     - cask
@@ -10,4 +10,3 @@
     - atom
     - rails
     # - luarocks
-

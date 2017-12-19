@@ -17,8 +17,17 @@
 - name: set bash_profile
   copy: src=bash_profile dest=~/.bash_profile mode=0600
 
+- name: Set Sysctl variables
+  become: yes
+  sysctl:
+    name: "{{ item.name }}"
+    value: "{{ item.value }}"
+    state: present
+    reload: yes
+  with_items: "{{ sysctl }}"
+
 - name: ssh dir
-  file: path=~/.ssh state=directory
+  file: path=~/.ssh state=directory follow=yes
 
 # - include_vars: ssh_config.yml
 # - name: set config

@@ -91,3 +91,9 @@ cd() { builtin cd "$@" && [ -n "$PS1" ] && ls -F ; return; }
 # google cloud sdk
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
+
+# goapp command - TODO: remove goapp dependency
+export PATH=$PATH:~/go_appengine/
+
+# iterm integration
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
