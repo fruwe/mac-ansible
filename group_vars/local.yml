@@ -4,6 +4,7 @@ atom_packages:
   - atom-typescript
   - autocomplete-gemfile
   - build-dockerfile
+  - git-control
   - git-plus
   - goto-definition
   - ide-crystal
@@ -33,6 +34,7 @@ atom_packages:
   - sort-lines
   - ssh-config
   - Sublime-Style-Column-Selection
+  - tree-view-git-modified
 brew_packages:
   - ag # fast multi core grepper
   - awscli
