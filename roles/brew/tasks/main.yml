@@ -21,3 +21,6 @@
 - name: Setup launch agents for services
   command: brew services start {{item}}
   with_items: "{{ brew_services }}"
+
+- name: Link gettext
+  command: brew link --force gettext

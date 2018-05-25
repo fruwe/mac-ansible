@@ -20,6 +20,7 @@ atom_packages:
   - language-slim
   - language-terraform
   - language-varnish
+  - language-vue
   - line-diff-details
   - linter
   - linter-eslint
@@ -35,6 +36,7 @@ atom_packages:
   - ssh-config
   - Sublime-Style-Column-Selection
   - tree-view-git-modified
+  - vue2-autocomplete
 brew_packages:
   - ag # fast multi core grepper
   - awscli
@@ -44,6 +46,7 @@ brew_packages:
   # - elixir
   - embulk
   - git
+  - glances
   - go
   # - graphviz
   # - heroku-toolbelt
@@ -52,9 +55,11 @@ brew_packages:
   - htop-osx
   # - hub
   - imagemagick
+  - kubectl
   - libxml2
   - lua51
   # - mockserver # install after java
+  - minikube
   - mobile-shell # mosh
   - mysql
   - nodejs
@@ -88,10 +93,11 @@ cask_packages:
   - astah-community
   - atom
   - bartender
+  - boostnote
   - daisydisk
-  - docker
+  - docker-edge
   - dropbox
-  - expandrive
+  # - expandrive
   - firefox
   # - genymotion
   # - gimp
