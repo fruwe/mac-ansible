@@ -44,7 +44,7 @@ brew_packages:
   - csshx
   - crystal-lang
   # - elixir
-  - embulk
+  # - embulk
   - git
   - glances
   - go
