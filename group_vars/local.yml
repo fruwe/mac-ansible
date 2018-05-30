@@ -84,11 +84,7 @@ brew_services:
   - mysql
   - redis
 brew_taps:
-  - homebrew/completions
-  - homebrew/science
   - homebrew/services
-  - Caskroom/cask
-  - InstantClientTap/instantclient
 cask_packages:
   - astah-community
   - atom
