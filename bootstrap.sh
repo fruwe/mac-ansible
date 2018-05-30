@@ -23,6 +23,22 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
     brew install ansible
 fi
 
+# ensure java is installed
+if ! java --version; then
+  read -p "WARN: Please install Java before you continue. Continue anyway? [Y/n] " response
+
+  case $response in [yY][eE][sS]|[yY]|[jJ]|'')
+    echo
+    echo Try to continue...
+    echo
+    ;;
+    *)
+    echo Exiting... Please run me again, after java has been installed
+    exit 1
+    ;;
+  esac
+fi
+
 # Modify the PATH
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
