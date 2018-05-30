@@ -79,7 +79,7 @@ brew_packages_after_cask:
   - r # install after xquartz cask has been installed
   - mockserver # installable after java has been intalled
 brew_services:
-  - mysql
+  # - mysql # might conflict with percona or mariadb. install manually if required
   - redis
 brew_taps:
   - homebrew/services
