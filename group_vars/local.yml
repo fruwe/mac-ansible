@@ -59,7 +59,7 @@ brew_packages:
   - lua51
   # - mockserver # install after java
   - mobile-shell # mosh
-  - mysql
+  # - mysql # might conflict with percona or mariadb. install manually if required
   - nodejs
   # - homebrew/nginx/openresty
   - peco
